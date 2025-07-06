@@ -31,7 +31,7 @@ const App = () => {
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <h1 className="text-2xl font-bold text-slate-800">
-                  Net<span className="text-blue-600">Sys</span>
+                  Net<span className="text-blue-600">Syon</span>
                 </h1>
               </div>
             </div>
