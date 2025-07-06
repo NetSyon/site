@@ -639,7 +639,7 @@ const App = () => {
                 Net<span className="text-blue-400">Syon</span>
               </h3>
               <p className="text-slate-400 mb-4">
-                Your trusted IT partner for comprehensive technology solutions.
+                {t.footer.description}
               </p>
               <div className="flex space-x-4">
                 <a href="#" className="text-slate-400 hover:text-white transition-colors">
@@ -660,35 +660,35 @@ const App = () => {
               </div>
             </div>
             <div>
-              <h4 className="text-lg font-semibold mb-4">Services</h4>
+              <h4 className="text-lg font-semibold mb-4">{t.footer.services}</h4>
               <ul className="space-y-2 text-slate-400">
-                <li><a href="#" className="hover:text-white transition-colors">Home IT Support</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Business Solutions</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Enterprise Infrastructure</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Cloud Services</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">{language === 'en' ? 'Home IT Support' : 'Support IT Domestique'}</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">{language === 'en' ? 'Business Solutions' : 'Solutions Entreprise'}</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">{language === 'en' ? 'Enterprise Infrastructure' : 'Infrastructure Entreprise'}</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">{language === 'en' ? 'Cloud Services' : 'Services Cloud'}</a></li>
               </ul>
             </div>
             <div>
-              <h4 className="text-lg font-semibold mb-4">Company</h4>
+              <h4 className="text-lg font-semibold mb-4">{t.footer.company}</h4>
               <ul className="space-y-2 text-slate-400">
-                <li><a href="#" className="hover:text-white transition-colors">About Us</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Our Team</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Careers</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Contact</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">{language === 'en' ? 'About Us' : 'À Propos'}</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">{language === 'en' ? 'Our Team' : 'Notre Équipe'}</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">{language === 'en' ? 'Careers' : 'Carrières'}</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">{t.nav.contact}</a></li>
               </ul>
             </div>
             <div>
-              <h4 className="text-lg font-semibold mb-4">Support</h4>
+              <h4 className="text-lg font-semibold mb-4">{t.footer.support}</h4>
               <ul className="space-y-2 text-slate-400">
-                <li><a href="#" className="hover:text-white transition-colors">Help Center</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Documentation</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Privacy Policy</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Terms of Service</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">{language === 'en' ? 'Help Center' : 'Centre d\'Aide'}</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">{language === 'en' ? 'Documentation' : 'Documentation'}</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">{language === 'en' ? 'Privacy Policy' : 'Politique de Confidentialité'}</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">{language === 'en' ? 'Terms of Service' : 'Conditions d\'Utilisation'}</a></li>
               </ul>
             </div>
           </div>
           <div className="border-t border-slate-700 mt-8 pt-8 text-center text-slate-400">
-            <p>&copy; 2024 NetSyon. All rights reserved.</p>
+            <p>{t.footer.copyright}</p>
           </div>
         </div>
       </footer>
