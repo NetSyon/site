@@ -358,7 +358,7 @@ const App = () => {
               Ready to Get Started?
             </h2>
             <p className="text-xl text-blue-200 max-w-3xl mx-auto">
-              Contact us today for a free consultation and discover how NetSys can transform your technology experience
+              Contact us today for a project quote and discover how NetSyon can transform your technology experience
             </p>
           </div>
 
