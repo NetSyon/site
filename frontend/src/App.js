@@ -124,6 +124,54 @@ const App = () => {
         company: 'Company',
         support: 'Support',
         copyright: '© 2024 NetSyon. All rights reserved.'
+      },
+      privacyPolicy: {
+        title: 'Privacy Policy',
+        lastUpdated: 'Last Updated: December 2024',
+        sections: {
+          introduction: {
+            title: 'Introduction',
+            content: 'NetSyon is committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our IT consulting services.'
+          },
+          informationWeCollect: {
+            title: 'Information We Collect',
+            subtitle1: 'Personal Information',
+            content1: 'We may collect personal information that you voluntarily provide to us when you contact us for services, including: name, email address, phone number, company name, job title, and project details.',
+            subtitle2: 'Automatically Collected Information', 
+            content2: 'When you visit our website, we may automatically collect certain information about your device, including: IP address, browser type, operating system, referring URLs, and pages viewed.'
+          },
+          howWeUse: {
+            title: 'How We Use Your Information',
+            content: 'We use the collected information to provide and improve our IT consulting services, respond to your inquiries, send you relevant information about our services, maintain the security of our systems, and comply with legal obligations.'
+          },
+          dataProtection: {
+            title: 'Data Protection and Security',
+            content: 'As an IT security consulting firm, we implement industry-standard security measures to protect your personal information. We use encryption, secure servers, access controls, and regular security audits. However, no method of transmission over the internet is 100% secure.'
+          },
+          informationSharing: {
+            title: 'Information Sharing',
+            content: 'We do not sell, trade, or rent your personal information to third parties. We may share your information only in the following circumstances: with your consent, to comply with legal obligations, to protect our rights and safety, or with trusted service providers who assist us in operating our business.'
+          },
+          yourRights: {
+            title: 'Your Privacy Rights',
+            content: 'You have the right to access, update, or delete your personal information. You may opt-out of receiving marketing communications from us. For residents of certain jurisdictions, you may have additional rights under applicable privacy laws.'
+          },
+          retention: {
+            title: 'Data Retention',
+            content: 'We retain your personal information only for as long as necessary to fulfill the purposes for which it was collected, comply with legal obligations, resolve disputes, and enforce our agreements.'
+          },
+          changes: {
+            title: 'Changes to This Privacy Policy',
+            content: 'We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.'
+          },
+          contact: {
+            title: 'Contact Us',
+            content: 'If you have any questions about this Privacy Policy or our privacy practices, please contact us at:',
+            email: 'Email: privacy@netsyon.com',
+            phone: 'Phone: +1 (555) 123-4567',
+            address: 'Address: 123 Technology Drive, Tech Valley, CA 94000'
+          }
+        }
       }
     },
     fr: {
