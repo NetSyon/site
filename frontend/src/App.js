@@ -995,7 +995,6 @@ const App = () => {
               <ul className="space-y-2 text-slate-400">
                 <li><a href="#" className="hover:text-white transition-colors">{language === 'en' ? 'About Us' : 'À Propos'}</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">{language === 'en' ? 'Our Team' : 'Notre Équipe'}</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">{language === 'en' ? 'Careers' : 'Carrières'}</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">{t.nav.contact}</a></li>
               </ul>
             </div>
