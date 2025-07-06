@@ -489,8 +489,14 @@ const App = () => {
               <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-6">
                 {t.about.title}
               </h2>
-              <p className="text-xl text-slate-600 mb-8 leading-relaxed">
+              <p className="text-xl text-slate-600 mb-6 leading-relaxed">
                 {t.about.description}
+              </p>
+              <p className="text-lg text-slate-600 mb-6 leading-relaxed">
+                {t.about.subtitle}
+              </p>
+              <p className="text-lg text-slate-600 mb-8 leading-relaxed font-medium">
+                {t.about.expertise}
               </p>
               <div className="space-y-6">
                 <div className="flex items-start">
