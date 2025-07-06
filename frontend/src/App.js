@@ -216,7 +216,7 @@ const App = () => {
           },
           governingLaw: {
             title: 'Governing Law',
-            content: 'These Terms of Use are governed by the laws of the State of California, United States. Any disputes arising from these terms or our services shall be resolved in the courts of California.'
+            content: 'These Terms of Use are governed by the laws of the Province of Quebec, Canada. Any disputes arising from these terms or our services shall be resolved in the courts of Quebec, Canada.'
           },
           changesToTerms: {
             title: 'Changes to Terms',
