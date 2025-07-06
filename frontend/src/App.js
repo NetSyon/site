@@ -461,7 +461,7 @@ const App = () => {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <h3 className="text-2xl font-bold mb-4">
-                Net<span className="text-blue-400">Sys</span>
+                Net<span className="text-blue-400">Syon</span>
               </h3>
               <p className="text-slate-400 mb-4">
                 Your trusted IT partner for comprehensive technology solutions.
