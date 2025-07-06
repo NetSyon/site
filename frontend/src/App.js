@@ -284,7 +284,7 @@ const App = () => {
             content: 'Si vous avez des questions sur ces Conditions d\'Utilisation, veuillez nous contacter à :',
             email: 'E-mail : legal@netsyon.com',
             phone: 'Téléphone : +1 (555) 123-4567',
-            address: 'Adresse : 123 Technology Drive, Tech Valley, CA 94000'
+            address: 'Adresse : 123 Technology Drive, Montréal, QC H3B 2Y5, Canada'
           }
         }
       }
