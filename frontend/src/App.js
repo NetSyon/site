@@ -117,6 +117,60 @@ const App = () => {
         getInTouch: 'Get in Touch',
         phone: 'Phone',
         email: 'Email',
+        helpCenter: {
+          title: 'Help Center & Documentation',
+          subtitle: 'Resources and guides to help you with your IT needs',
+          helpCenter: {
+            title: 'Help Center',
+            items: [
+              {
+                title: 'Network Setup Guide',
+                description: 'Step-by-step instructions for setting up secure home and business networks',
+                category: 'Networking'
+              },
+              {
+                title: 'Password Security Best Practices',
+                description: 'Learn how to create and manage strong passwords for maximum security',
+                category: 'Security'
+              },
+              {
+                title: 'Microsoft 365 Security Setup',
+                description: 'Configure MFA, conditional access, and data protection in your Microsoft environment',
+                category: 'Cloud Security'
+              },
+              {
+                title: 'Backup & Recovery Planning',
+                description: 'Essential strategies for protecting your data and ensuring business continuity',
+                category: 'Data Protection'
+              }
+            ]
+          },
+          documentation: {
+            title: 'Documentation',
+            items: [
+              {
+                title: 'DLP Implementation Guide',
+                description: 'Complete documentation for deploying Data Loss Prevention across your organization',
+                category: 'Enterprise'
+              },
+              {
+                title: 'Conditional Access Policies',
+                description: 'Technical guide for designing and implementing conditional access in Azure AD',
+                category: 'Identity Management'
+              },
+              {
+                title: 'Home Network Security Checklist',
+                description: 'Comprehensive checklist to secure your home network and IoT devices',
+                category: 'Home Security'
+              },
+              {
+                title: 'Incident Response Procedures',
+                description: 'Step-by-step procedures for responding to cybersecurity incidents',
+                category: 'Security Operations'
+              }
+            ]
+          }
+        },
         address: 'Address'
       },
       footer: {
