@@ -170,7 +170,7 @@ const App = () => {
             content: 'If you have any questions about this Privacy Policy or our privacy practices, please contact us at:',
             email: 'Email: privacy@netsyon.com',
             phone: 'Phone: +1 (555) 123-4567',
-            address: 'Address: 123 Technology Drive, Tech Valley, CA 94000'
+            address: 'Address: 123 Technology Drive, Montreal, QC H3B 2Y5, Canada'
           }
         }
       },
