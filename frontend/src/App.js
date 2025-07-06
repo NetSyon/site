@@ -311,25 +311,24 @@ const App = () => {
         
         <div className="relative z-20 text-center px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
           <h1 className="text-6xl md:text-7xl font-bold text-white mb-6 leading-tight">
-            Your Trusted
-            <span className="block text-blue-400">IT Partner</span>
+            {t.hero.title}
+            <span className="block text-blue-400">{t.hero.subtitle}</span>
           </h1>
           <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Empowering homes, businesses, and enterprises with cutting-edge IT solutions. 
-            From personal tech support to enterprise-grade infrastructure.
+            {t.hero.description}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button 
               onClick={() => scrollToSection('services')}
               className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-700 transition-all shadow-lg hover:shadow-xl transform hover:scale-105"
             >
-              Explore Services
+              {t.hero.exploreServices}
             </button>
             <button 
               onClick={() => scrollToSection('contact')}
               className="bg-white/20 backdrop-blur-sm text-white border-2 border-white/30 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white/30 transition-all"
             >
-              Get Quote
+              {t.hero.getQuote}
             </button>
           </div>
         </div>
