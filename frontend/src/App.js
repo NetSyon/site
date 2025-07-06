@@ -428,10 +428,10 @@ const App = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-4">
-              Why Choose NetSyon?
+              {t.whyChoose.title}
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Experience the difference of working with a trusted IT partner
+              {t.whyChoose.subtitle}
             </p>
           </div>
 
@@ -443,8 +443,8 @@ const App = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-slate-800 mb-2">Fast Response</h3>
-                <p className="text-slate-600">Quick response times and efficient problem resolution</p>
+                <h3 className="text-xl font-bold text-slate-800 mb-2">{t.whyChoose.fastResponse.title}</h3>
+                <p className="text-slate-600">{t.whyChoose.fastResponse.description}</p>
               </div>
             </div>
 
@@ -455,8 +455,8 @@ const App = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-slate-800 mb-2">Proven Expertise</h3>
-                <p className="text-slate-600">Years of experience across all technology platforms</p>
+                <h3 className="text-xl font-bold text-slate-800 mb-2">{t.whyChoose.expertise.title}</h3>
+                <p className="text-slate-600">{t.whyChoose.expertise.description}</p>
               </div>
             </div>
 
@@ -467,8 +467,8 @@ const App = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-slate-800 mb-2">Cost Effective</h3>
-                <p className="text-slate-600">Competitive pricing with transparent service rates</p>
+                <h3 className="text-xl font-bold text-slate-800 mb-2">{t.whyChoose.costEffective.title}</h3>
+                <p className="text-slate-600">{t.whyChoose.costEffective.description}</p>
               </div>
             </div>
           </div>
