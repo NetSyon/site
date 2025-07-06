@@ -21,6 +21,239 @@ const App = () => {
     }
   };
 
+  const toggleLanguage = () => {
+    setLanguage(language === 'en' ? 'fr' : 'en');
+  };
+
+  const translations = {
+    en: {
+      nav: {
+        home: 'Home',
+        services: 'Services',
+        about: 'About',
+        contact: 'Contact',
+        getStarted: 'Get Started'
+      },
+      hero: {
+        title: 'Your Trusted',
+        subtitle: 'IT Partner',
+        description: 'Empowering homes, businesses, and enterprises with cutting-edge IT solutions. From personal tech support to enterprise-grade infrastructure.',
+        exploreServices: 'Explore Services',
+        getQuote: 'Get Quote'
+      },
+      services: {
+        title: 'Comprehensive IT Solutions',
+        subtitle: 'Tailored technology services for every need - from personal computing to enterprise infrastructure',
+        home: {
+          title: 'Home Users & Cybersecurity',
+          description: 'Comprehensive home IT security and optimization services for modern families',
+          items: [
+            'Home Network Security & Setup',
+            'Smart Device Protection & IoT Security',
+            'Family Cyber Awareness Training',
+            'Data Privacy & Backup Solutions',
+            'Remote Access & VPN Configuration'
+          ]
+        },
+        smb: {
+          title: 'Small & Medium Business',
+          description: 'Scalable IT solutions and security services designed to protect and grow your business',
+          items: [
+            'Managed IT Services & Support',
+            'Business Email Security & Encryption',
+            'Cloud Migration & Management',
+            'Multi-Factor Authentication Setup',
+            'Business Continuity Planning'
+          ]
+        },
+        enterprise: {
+          title: 'Enterprise Security',
+          description: 'Advanced security implementations and compliance solutions for large organizations',
+          items: [
+            'Data Loss Prevention (DLP) Implementation',
+            'Conditional Access Policy Design',
+            'Identity & Access Management (IAM)',
+            'Microsoft Defender Suite Deployment',
+            'Information Protection & Classification'
+          ]
+        },
+        learnMore: 'Learn More'
+      },
+      whyChoose: {
+        title: 'Why Choose NetSyon?',
+        subtitle: 'Experience the difference of working with a trusted IT partner',
+        fastResponse: {
+          title: 'Fast Response',
+          description: 'Quick response times and efficient problem resolution'
+        },
+        expertise: {
+          title: 'Proven Expertise',
+          description: 'Years of experience across all technology platforms'
+        },
+        costEffective: {
+          title: 'Cost Effective',
+          description: 'Competitive pricing with transparent service rates'
+        }
+      },
+      about: {
+        title: 'About NetSyon',
+        description: 'With over a decade of experience in IT consulting, NetSyon has been the trusted technology partner for individuals, small businesses, and large enterprises across the region.',
+        mission: {
+          title: 'Mission',
+          description: 'To simplify technology and empower our clients with reliable, innovative IT solutions that drive success.'
+        },
+        vision: {
+          title: 'Vision',
+          description: 'To be the leading IT consulting firm, known for exceptional service and innovative solutions.'
+        }
+      },
+      contact: {
+        title: 'Ready to Get Started?',
+        subtitle: 'Contact us today for a project quote and discover how NetSyon can transform your technology experience',
+        getInTouch: 'Get in Touch',
+        phone: 'Phone',
+        email: 'Email',
+        address: 'Address',
+        requestQuote: 'Request Quote',
+        form: {
+          name: 'Name',
+          namePlaceholder: 'Your Name',
+          email: 'Email',
+          emailPlaceholder: 'your@email.com',
+          serviceType: 'Service Type',
+          selectService: 'Select Service',
+          homeSupport: 'Home User Support',
+          smb: 'Small/Medium Business',
+          enterprise: 'Enterprise Solutions',
+          message: 'Message',
+          messagePlaceholder: 'Tell us about your IT needs...',
+          sendMessage: 'Send Message'
+        }
+      },
+      footer: {
+        description: 'Your trusted IT partner for comprehensive technology solutions.',
+        services: 'Services',
+        company: 'Company',
+        support: 'Support',
+        copyright: '© 2024 NetSyon. All rights reserved.'
+      }
+    },
+    fr: {
+      nav: {
+        home: 'Accueil',
+        services: 'Services',
+        about: 'À propos',
+        contact: 'Contact',
+        getStarted: 'Commencer'
+      },
+      hero: {
+        title: 'Votre Partenaire',
+        subtitle: 'IT de Confiance',
+        description: 'Autonomiser les foyers, les entreprises et les grandes organisations avec des solutions IT de pointe. Du support technique personnel à l\'infrastructure de niveau entreprise.',
+        exploreServices: 'Explorer les Services',
+        getQuote: 'Obtenir un Devis'
+      },
+      services: {
+        title: 'Solutions IT Complètes',
+        subtitle: 'Services technologiques adaptés à chaque besoin - de l\'informatique personnelle à l\'infrastructure d\'entreprise',
+        home: {
+          title: 'Utilisateurs Domestiques & Cybersécurité',
+          description: 'Services complets de sécurité et d\'optimisation IT domestique pour les familles modernes',
+          items: [
+            'Sécurité et Configuration du Réseau Domestique',
+            'Protection des Appareils Intelligents & Sécurité IoT',
+            'Formation de Sensibilisation Cyber Familiale',
+            'Solutions de Confidentialité et Sauvegarde de Données',
+            'Configuration d\'Accès Distant & VPN'
+          ]
+        },
+        smb: {
+          title: 'Petites et Moyennes Entreprises',
+          description: 'Solutions IT évolutives et services de sécurité conçus pour protéger et développer votre entreprise',
+          items: [
+            'Services IT Gérés & Support',
+            'Sécurité et Chiffrement des E-mails Professionnels',
+            'Migration et Gestion Cloud',
+            'Configuration d\'Authentification Multi-Facteurs',
+            'Planification de Continuité d\'Activité'
+          ]
+        },
+        enterprise: {
+          title: 'Sécurité Entreprise',
+          description: 'Implémentations de sécurité avancées et solutions de conformité pour les grandes organisations',
+          items: [
+            'Implémentation de Prévention des Pertes de Données (DLP)',
+            'Conception de Politiques d\'Accès Conditionnel',
+            'Gestion des Identités et Accès (IAM)',
+            'Déploiement de la Suite Microsoft Defender',
+            'Protection et Classification des Informations'
+          ]
+        },
+        learnMore: 'En Savoir Plus'
+      },
+      whyChoose: {
+        title: 'Pourquoi Choisir NetSyon?',
+        subtitle: 'Découvrez la différence de travailler avec un partenaire IT de confiance',
+        fastResponse: {
+          title: 'Réponse Rapide',
+          description: 'Temps de réponse rapides et résolution efficace des problèmes'
+        },
+        expertise: {
+          title: 'Expertise Prouvée',
+          description: 'Des années d\'expérience sur toutes les plateformes technologiques'
+        },
+        costEffective: {
+          title: 'Rentable',
+          description: 'Prix compétitifs avec des tarifs de service transparents'
+        }
+      },
+      about: {
+        title: 'À Propos de NetSyon',
+        description: 'Avec plus d\'une décennie d\'expérience dans le conseil IT, NetSyon a été le partenaire technologique de confiance pour les particuliers, les petites entreprises et les grandes entreprises de la région.',
+        mission: {
+          title: 'Mission',
+          description: 'Simplifier la technologie et autonomiser nos clients avec des solutions IT fiables et innovantes qui favorisent le succès.'
+        },
+        vision: {
+          title: 'Vision',
+          description: 'Être la société de conseil IT leader, reconnue pour un service exceptionnel et des solutions innovantes.'
+        }
+      },
+      contact: {
+        title: 'Prêt à Commencer?',
+        subtitle: 'Contactez-nous aujourd\'hui pour un devis de projet et découvrez comment NetSyon peut transformer votre expérience technologique',
+        getInTouch: 'Nous Contacter',
+        phone: 'Téléphone',
+        email: 'E-mail',
+        address: 'Adresse',
+        requestQuote: 'Demander un Devis',
+        form: {
+          name: 'Nom',
+          namePlaceholder: 'Votre Nom',
+          email: 'E-mail',
+          emailPlaceholder: 'votre@email.com',
+          serviceType: 'Type de Service',
+          selectService: 'Sélectionner un Service',
+          homeSupport: 'Support Utilisateur Domestique',
+          smb: 'Petite/Moyenne Entreprise',
+          enterprise: 'Solutions Entreprise',
+          message: 'Message',
+          messagePlaceholder: 'Parlez-nous de vos besoins IT...',
+          sendMessage: 'Envoyer le Message'
+        }
+      },
+      footer: {
+        description: 'Votre partenaire IT de confiance pour des solutions technologiques complètes.',
+        services: 'Services',
+        company: 'Entreprise',
+        support: 'Support',
+        copyright: '© 2024 NetSyon. Tous droits réservés.'
+      }
+    }
+  };
+
+  const t = translations[language];
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
       {/* Navigation */}
