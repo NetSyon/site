@@ -273,7 +273,7 @@ const App = () => {
           },
           governingLaw: {
             title: 'Loi Applicable',
-            content: 'Ces Conditions d\'Utilisation sont régies par les lois de l\'État de Californie, États-Unis. Tout litige découlant de ces conditions ou de nos services sera résolu devant les tribunaux de Californie.'
+            content: 'Ces Conditions d\'Utilisation sont régies par les lois de la Province de Québec, Canada. Tout litige découlant de ces conditions ou de nos services sera résolu devant les tribunaux du Québec, Canada.'
           },
           changesToTerms: {
             title: 'Modifications des Conditions',
