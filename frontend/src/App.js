@@ -375,6 +375,60 @@ const App = () => {
         email: 'E-mail',
         address: 'Adresse'
       },
+      helpCenter: {
+        title: 'Centre d\'Aide & Documentation',
+        subtitle: 'Ressources et guides pour vous aider avec vos besoins IT',
+        helpCenter: {
+          title: 'Centre d\'Aide',
+          items: [
+            {
+              title: 'Guide de Configuration Réseau',
+              description: 'Instructions détaillées pour configurer des réseaux domestiques et professionnels sécurisés',
+              category: 'Réseautage'
+            },
+            {
+              title: 'Meilleures Pratiques de Sécurité des Mots de Passe',
+              description: 'Apprenez à créer et gérer des mots de passe forts pour une sécurité maximale',
+              category: 'Sécurité'
+            },
+            {
+              title: 'Configuration Sécurité Microsoft 365',
+              description: 'Configurez MFA, accès conditionnel et protection des données dans votre environnement Microsoft',
+              category: 'Sécurité Cloud'
+            },
+            {
+              title: 'Planification de Sauvegarde & Récupération',
+              description: 'Stratégies essentielles pour protéger vos données et assurer la continuité d\'activité',
+              category: 'Protection des Données'
+            }
+          ]
+        },
+        documentation: {
+          title: 'Documentation',
+          items: [
+            {
+              title: 'Guide d\'Implémentation DLP',
+              description: 'Documentation complète pour déployer la Prévention des Pertes de Données dans votre organisation',
+              category: 'Entreprise'
+            },
+            {
+              title: 'Politiques d\'Accès Conditionnel',
+              description: 'Guide technique pour concevoir et implémenter l\'accès conditionnel dans Azure AD',
+              category: 'Gestion d\'Identité'
+            },
+            {
+              title: 'Liste de Vérification Sécurité Réseau Domestique',
+              description: 'Liste complète pour sécuriser votre réseau domestique et appareils IoT',
+              category: 'Sécurité Domestique'
+            },
+            {
+              title: 'Procédures de Réponse aux Incidents',
+              description: 'Procédures détaillées pour répondre aux incidents de cybersécurité',
+              category: 'Opérations de Sécurité'
+            }
+          ]
+        }
+      },
       footer: {
         description: 'Votre partenaire IT de confiance pour des solutions technologiques complètes.',
         services: 'Services',
