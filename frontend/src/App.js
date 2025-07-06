@@ -252,14 +252,14 @@ const App = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-4">
-              Why Choose NetSys?
+              Why Choose NetSyon?
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
               Experience the difference of working with a trusted IT partner
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="text-center group">
               <div className="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 group-hover:bg-blue-50">
                 <div className="bg-blue-600 w-16 h-16 rounded-xl flex items-center justify-center mb-4 mx-auto group-hover:bg-blue-700 transition-colors">
@@ -293,18 +293,6 @@ const App = () => {
                 </div>
                 <h3 className="text-xl font-bold text-slate-800 mb-2">Cost Effective</h3>
                 <p className="text-slate-600">Competitive pricing with transparent service rates</p>
-              </div>
-            </div>
-
-            <div className="text-center group">
-              <div className="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 group-hover:bg-indigo-50">
-                <div className="bg-indigo-600 w-16 h-16 rounded-xl flex items-center justify-center mb-4 mx-auto group-hover:bg-indigo-700 transition-colors">
-                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192L5.636 18.364M12 3v6m0 6v6m6-12h-6m-6 0h6" />
-                  </svg>
-                </div>
-                <h3 className="text-xl font-bold text-slate-800 mb-2">24/7 Support</h3>
-                <p className="text-slate-600">Round-the-clock support for critical business needs</p>
               </div>
             </div>
           </div>
