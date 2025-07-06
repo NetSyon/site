@@ -302,12 +302,12 @@ const App = () => {
 
       {/* Hero Section */}
       <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 to-slate-900/20 z-10"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-900/80 to-slate-900/80 z-10"></div>
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage: `url('https://images.pexels.com/photos/5475750/pexels-photo-5475750.jpeg')`,
-            filter: 'brightness(0.6)'
+            filter: 'brightness(0.4)'
           }}
         ></div>
         
