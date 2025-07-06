@@ -211,7 +211,9 @@ const App = () => {
       },
       about: {
         title: 'À Propos de NetSyon',
-        description: 'Avec plus d\'une décennie d\'expérience dans le conseil IT, NetSyon a été le partenaire technologique de confiance pour les particuliers, les petites entreprises et les grandes entreprises de la région.',
+        description: 'NetSyon est un bureau de conseil spécialisé dans la sécurité Microsoft Cloud, la protection des données et les solutions IT pour les entreprises, PME et utilisateurs domestiques avancés. Avec plus d\'une décennie d\'expérience dans le conseil IT, NetSyon a été le partenaire technologique de confiance pour les particuliers, les petites entreprises et les grandes entreprises de la région.',
+        subtitle: 'Dans un monde de plus en plus numérique, sécuriser les données et l\'infrastructure cloud est essentiel—non seulement pour les entreprises, mais aussi pour les particuliers gérant des maisons connectées. NetSyon aide les clients à construire des environnements numériques sécurisés, fiables et évolutifs en combinant expertise stratégique et mise en œuvre pratique.',
+        expertise: 'Nous fournissons des services de conseil sur mesure à travers l\'écosystème Microsoft, aidant les organisations et les particuliers à prendre le contrôle total de leur posture de cybersécurité, gouvernance cloud et infrastructure IT.',
         mission: {
           title: 'Mission',
           description: 'Simplifier la technologie et autonomiser nos clients avec des solutions IT fiables et innovantes qui favorisent le succès.'
