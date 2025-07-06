@@ -481,11 +481,10 @@ const App = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-6">
-                About NetSyon
+                {t.about.title}
               </h2>
               <p className="text-xl text-slate-600 mb-8 leading-relaxed">
-                With over a decade of experience in IT consulting, NetSyon has been the trusted technology partner 
-                for individuals, small businesses, and large enterprises across the region.
+                {t.about.description}
               </p>
               <div className="space-y-6">
                 <div className="flex items-start">
@@ -495,8 +494,8 @@ const App = () => {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-slate-800 mb-2">Mission</h3>
-                    <p className="text-slate-600">To simplify technology and empower our clients with reliable, innovative IT solutions that drive success.</p>
+                    <h3 className="text-xl font-semibold text-slate-800 mb-2">{t.about.mission.title}</h3>
+                    <p className="text-slate-600">{t.about.mission.description}</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -506,8 +505,8 @@ const App = () => {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-slate-800 mb-2">Vision</h3>
-                    <p className="text-slate-600">To be the leading IT consulting firm, known for exceptional service and innovative solutions.</p>
+                    <h3 className="text-xl font-semibold text-slate-800 mb-2">{t.about.vision.title}</h3>
+                    <p className="text-slate-600">{t.about.vision.description}</p>
                   </div>
                 </div>
               </div>
