@@ -277,16 +277,16 @@ const App = () => {
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-8">
-                <button onClick={() => scrollToSection('home')} className="text-white hover:text-blue-300 transition-colors font-medium">{t.nav.home}</button>
-                <button onClick={() => scrollToSection('services')} className="text-white hover:text-blue-300 transition-colors font-medium">{t.nav.services}</button>
-                <button onClick={() => scrollToSection('about')} className="text-white hover:text-blue-300 transition-colors font-medium">{t.nav.about}</button>
-                <button onClick={() => scrollToSection('contact')} className="text-white hover:text-blue-300 transition-colors font-medium">{t.nav.contact}</button>
+                <button onClick={() => scrollToSection('home')} className={`${isScrolled ? 'text-slate-700 hover:text-blue-600' : 'text-white hover:text-blue-300'} transition-colors font-medium`}>{t.nav.home}</button>
+                <button onClick={() => scrollToSection('services')} className={`${isScrolled ? 'text-slate-700 hover:text-blue-600' : 'text-white hover:text-blue-300'} transition-colors font-medium`}>{t.nav.services}</button>
+                <button onClick={() => scrollToSection('about')} className={`${isScrolled ? 'text-slate-700 hover:text-blue-600' : 'text-white hover:text-blue-300'} transition-colors font-medium`}>{t.nav.about}</button>
+                <button onClick={() => scrollToSection('contact')} className={`${isScrolled ? 'text-slate-700 hover:text-blue-600' : 'text-white hover:text-blue-300'} transition-colors font-medium`}>{t.nav.contact}</button>
               </div>
             </div>
             <div className="hidden md:flex items-center space-x-4">
               <button 
                 onClick={toggleLanguage}
-                className="flex items-center space-x-2 text-white hover:text-blue-300 transition-colors font-medium"
+                className={`flex items-center space-x-2 ${isScrolled ? 'text-slate-700 hover:text-blue-600' : 'text-white hover:text-blue-300'} transition-colors font-medium`}
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
