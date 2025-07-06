@@ -305,10 +305,10 @@ const App = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-6">
-                About NetSys
+                About NetSyon
               </h2>
               <p className="text-xl text-slate-600 mb-8 leading-relaxed">
-                With over a decade of experience in IT consulting, NetSys has been the trusted technology partner 
+                With over a decade of experience in IT consulting, NetSyon has been the trusted technology partner 
                 for individuals, small businesses, and large enterprises across the region.
               </p>
               <div className="space-y-6">
