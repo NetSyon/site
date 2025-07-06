@@ -111,26 +111,11 @@ const App = () => {
       },
       contact: {
         title: 'Ready to Get Started?',
-        subtitle: 'Contact us today for a project quote and discover how NetSyon can transform your technology experience',
+        subtitle: 'Contact us today to discover how NetSyon can transform your technology experience',
         getInTouch: 'Get in Touch',
         phone: 'Phone',
         email: 'Email',
-        address: 'Address',
-        requestQuote: 'Request Quote',
-        form: {
-          name: 'Name',
-          namePlaceholder: 'Your Name',
-          email: 'Email',
-          emailPlaceholder: 'your@email.com',
-          serviceType: 'Service Type',
-          selectService: 'Select Service',
-          homeSupport: 'Home User Support',
-          smb: 'Small/Medium Business',
-          enterprise: 'Enterprise Solutions',
-          message: 'Message',
-          messagePlaceholder: 'Tell us about your IT needs...',
-          sendMessage: 'Send Message'
-        }
+        address: 'Address'
       },
       footer: {
         description: 'Your trusted IT partner for comprehensive technology solutions.',
