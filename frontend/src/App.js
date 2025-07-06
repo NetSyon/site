@@ -530,17 +530,17 @@ const App = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              Ready to Get Started?
+              {t.contact.title}
             </h2>
             <p className="text-xl text-blue-200 max-w-3xl mx-auto">
-              Contact us today for a project quote and discover how NetSyon can transform your technology experience
+              {t.contact.subtitle}
             </p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
               <div className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl border border-white/20">
-                <h3 className="text-2xl font-bold mb-6">Get in Touch</h3>
+                <h3 className="text-2xl font-bold mb-6">{t.contact.getInTouch}</h3>
                 <div className="space-y-6">
                   <div className="flex items-center">
                     <div className="bg-blue-600 p-3 rounded-lg mr-4">
@@ -549,7 +549,7 @@ const App = () => {
                       </svg>
                     </div>
                     <div>
-                      <h4 className="font-semibold">Phone</h4>
+                      <h4 className="font-semibold">{t.contact.phone}</h4>
                       <p className="text-blue-200">+1 (555) 123-4567</p>
                     </div>
                   </div>
@@ -560,7 +560,7 @@ const App = () => {
                       </svg>
                     </div>
                     <div>
-                      <h4 className="font-semibold">Email</h4>
+                      <h4 className="font-semibold">{t.contact.email}</h4>
                       <p className="text-blue-200">info@netsyon.com</p>
                     </div>
                   </div>
@@ -572,7 +572,7 @@ const App = () => {
                       </svg>
                     </div>
                     <div>
-                      <h4 className="font-semibold">Address</h4>
+                      <h4 className="font-semibold">{t.contact.address}</h4>
                       <p className="text-blue-200">123 Technology Drive<br />Tech Valley, CA 94000</p>
                     </div>
                   </div>
@@ -582,46 +582,46 @@ const App = () => {
 
             <div>
               <div className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl border border-white/20">
-                <h3 className="text-2xl font-bold mb-6">Request Quote</h3>
+                <h3 className="text-2xl font-bold mb-6">{t.contact.requestQuote}</h3>
                 <form className="space-y-6">
                   <div>
-                    <label className="block text-sm font-medium mb-2">Name</label>
+                    <label className="block text-sm font-medium mb-2">{t.contact.form.name}</label>
                     <input 
                       type="text" 
                       className="w-full px-4 py-3 rounded-lg bg-white/20 border border-white/30 text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                      placeholder="Your Name"
+                      placeholder={t.contact.form.namePlaceholder}
                     />
                   </div>
                   <div>
-                    <label className="block text-sm font-medium mb-2">Email</label>
+                    <label className="block text-sm font-medium mb-2">{t.contact.form.email}</label>
                     <input 
                       type="email" 
                       className="w-full px-4 py-3 rounded-lg bg-white/20 border border-white/30 text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                      placeholder="your@email.com"
+                      placeholder={t.contact.form.emailPlaceholder}
                     />
                   </div>
                   <div>
-                    <label className="block text-sm font-medium mb-2">Service Type</label>
+                    <label className="block text-sm font-medium mb-2">{t.contact.form.serviceType}</label>
                     <select className="w-full px-4 py-3 rounded-lg bg-white/20 border border-white/30 text-white focus:outline-none focus:ring-2 focus:ring-blue-500">
-                      <option value="">Select Service</option>
-                      <option value="home">Home User Support</option>
-                      <option value="smb">Small/Medium Business</option>
-                      <option value="enterprise">Enterprise Solutions</option>
+                      <option value="">{t.contact.form.selectService}</option>
+                      <option value="home">{t.contact.form.homeSupport}</option>
+                      <option value="smb">{t.contact.form.smb}</option>
+                      <option value="enterprise">{t.contact.form.enterprise}</option>
                     </select>
                   </div>
                   <div>
-                    <label className="block text-sm font-medium mb-2">Message</label>
+                    <label className="block text-sm font-medium mb-2">{t.contact.form.message}</label>
                     <textarea 
                       rows={4}
                       className="w-full px-4 py-3 rounded-lg bg-white/20 border border-white/30 text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                      placeholder="Tell us about your IT needs..."
+                      placeholder={t.contact.form.messagePlaceholder}
                     ></textarea>
                   </div>
                   <button 
                     type="submit"
                     className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors shadow-lg hover:shadow-xl"
                   >
-                    Send Message
+                    {t.contact.form.sendMessage}
                   </button>
                 </form>
               </div>
