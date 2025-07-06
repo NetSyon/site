@@ -153,7 +153,7 @@ const App = () => {
         subtitle: 'IT de Confiance',
         description: 'Autonomiser les foyers, les entreprises et les grandes organisations avec des solutions IT de pointe. Du support technique personnel à l\'infrastructure de niveau entreprise.',
         exploreServices: 'Explorer les Services',
-        getQuote: 'Obtenir un Devis'
+        contactUs: 'Nous Contacter'
       },
       services: {
         title: 'Solutions IT Complètes',
