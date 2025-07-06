@@ -388,8 +388,8 @@ const App = () => {
         copyright: '© 2024 NetSyon. Tous droits réservés.'
       },
       privacyPolicy: {
-        title: 'Politique de Confidentialité',
-        lastUpdated: 'Dernière mise à jour : Décembre 2024',
+        title: 'Privacy Policy',
+        lastUpdated: 'Last Updated: December 2024',
         sections: {
           introduction: {
             title: 'Introduction',
