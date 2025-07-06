@@ -530,6 +530,105 @@ const App = () => {
     </div>
   );
 
+  const TermsOfUseModal = () => (
+    <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4">
+      <div className="bg-white rounded-2xl max-w-4xl max-h-[90vh] overflow-y-auto shadow-2xl">
+        <div className="sticky top-0 bg-white border-b border-gray-200 p-6 flex justify-between items-center">
+          <h2 className="text-3xl font-bold text-slate-800">{t.termsOfUse.title}</h2>
+          <button 
+            onClick={() => setShowTermsOfUse(false)}
+            className="text-slate-400 hover:text-slate-600 transition-colors"
+          >
+            <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        
+        <div className="p-6 space-y-8">
+          <p className="text-sm text-slate-500">{t.termsOfUse.lastUpdated}</p>
+          
+          {/* Introduction */}
+          <section>
+            <h3 className="text-xl font-semibold text-slate-800 mb-3">{t.termsOfUse.sections.introduction.title}</h3>
+            <p className="text-slate-600 leading-relaxed">{t.termsOfUse.sections.introduction.content}</p>
+          </section>
+
+          {/* Acceptance of Terms */}
+          <section>
+            <h3 className="text-xl font-semibold text-slate-800 mb-3">{t.termsOfUse.sections.acceptanceOfTerms.title}</h3>
+            <p className="text-slate-600 leading-relaxed">{t.termsOfUse.sections.acceptanceOfTerms.content}</p>
+          </section>
+
+          {/* Services Offered */}
+          <section>
+            <h3 className="text-xl font-semibold text-slate-800 mb-3">{t.termsOfUse.sections.servicesOffered.title}</h3>
+            <p className="text-slate-600 leading-relaxed">{t.termsOfUse.sections.servicesOffered.content}</p>
+          </section>
+
+          {/* User Responsibilities */}
+          <section>
+            <h3 className="text-xl font-semibold text-slate-800 mb-3">{t.termsOfUse.sections.userResponsibilities.title}</h3>
+            <p className="text-slate-600 leading-relaxed">{t.termsOfUse.sections.userResponsibilities.content}</p>
+          </section>
+
+          {/* Intellectual Property */}
+          <section>
+            <h3 className="text-xl font-semibold text-slate-800 mb-3">{t.termsOfUse.sections.intellectualProperty.title}</h3>
+            <p className="text-slate-600 leading-relaxed">{t.termsOfUse.sections.intellectualProperty.content}</p>
+          </section>
+
+          {/* Service Terms */}
+          <section>
+            <h3 className="text-xl font-semibold text-slate-800 mb-3">{t.termsOfUse.sections.serviceTerms.title}</h3>
+            <p className="text-slate-600 leading-relaxed">{t.termsOfUse.sections.serviceTerms.content}</p>
+          </section>
+
+          {/* Limitation of Liability */}
+          <section>
+            <h3 className="text-xl font-semibold text-slate-800 mb-3">{t.termsOfUse.sections.limitationOfLiability.title}</h3>
+            <p className="text-slate-600 leading-relaxed">{t.termsOfUse.sections.limitationOfLiability.content}</p>
+          </section>
+
+          {/* Confidentiality */}
+          <section>
+            <h3 className="text-xl font-semibold text-slate-800 mb-3">{t.termsOfUse.sections.confidentiality.title}</h3>
+            <p className="text-slate-600 leading-relaxed">{t.termsOfUse.sections.confidentiality.content}</p>
+          </section>
+
+          {/* Termination */}
+          <section>
+            <h3 className="text-xl font-semibold text-slate-800 mb-3">{t.termsOfUse.sections.termination.title}</h3>
+            <p className="text-slate-600 leading-relaxed">{t.termsOfUse.sections.termination.content}</p>
+          </section>
+
+          {/* Governing Law */}
+          <section>
+            <h3 className="text-xl font-semibold text-slate-800 mb-3">{t.termsOfUse.sections.governingLaw.title}</h3>
+            <p className="text-slate-600 leading-relaxed">{t.termsOfUse.sections.governingLaw.content}</p>
+          </section>
+
+          {/* Changes to Terms */}
+          <section>
+            <h3 className="text-xl font-semibold text-slate-800 mb-3">{t.termsOfUse.sections.changesToTerms.title}</h3>
+            <p className="text-slate-600 leading-relaxed">{t.termsOfUse.sections.changesToTerms.content}</p>
+          </section>
+
+          {/* Contact */}
+          <section>
+            <h3 className="text-xl font-semibold text-slate-800 mb-3">{t.termsOfUse.sections.contact.title}</h3>
+            <p className="text-slate-600 leading-relaxed mb-4">{t.termsOfUse.sections.contact.content}</p>
+            <div className="bg-slate-50 p-4 rounded-lg space-y-2">
+              <p className="text-slate-700 font-medium">{t.termsOfUse.sections.contact.email}</p>
+              <p className="text-slate-700 font-medium">{t.termsOfUse.sections.contact.phone}</p>
+              <p className="text-slate-700 font-medium">{t.termsOfUse.sections.contact.address}</p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  );
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
       {showPrivacyPolicy && <PrivacyPolicyModal />}
