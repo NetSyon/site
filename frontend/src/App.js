@@ -807,7 +807,7 @@ const App = () => {
               <ul className="space-y-2 text-slate-400">
                 <li><a href="#" className="hover:text-white transition-colors">{language === 'en' ? 'Help Center' : 'Centre d\'Aide'}</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">{language === 'en' ? 'Documentation' : 'Documentation'}</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">{language === 'en' ? 'Privacy Policy' : 'Politique de Confidentialité'}</a></li>
+                <li><button onClick={() => setShowPrivacyPolicy(true)} className="hover:text-white transition-colors text-left">{language === 'en' ? 'Privacy Policy' : 'Politique de Confidentialité'}</button></li>
                 <li><a href="#" className="hover:text-white transition-colors">{language === 'en' ? 'Terms of Service' : 'Conditions d\'Utilisation'}</a></li>
               </ul>
             </div>
