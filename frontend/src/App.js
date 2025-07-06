@@ -334,7 +334,7 @@ const App = () => {
               onClick={() => scrollToSection('contact')}
               className="bg-white/20 backdrop-blur-sm text-white border-2 border-white/30 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white/30 transition-all"
             >
-              {t.hero.getQuote}
+              {t.contact.getInTouch}
             </button>
           </div>
         </div>
