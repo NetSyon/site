@@ -386,7 +386,7 @@ const App = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold">Email</h4>
-                      <p className="text-blue-200">info@netsys.com</p>
+                      <p className="text-blue-200">info@netsyon.com</p>
                     </div>
                   </div>
                   <div className="flex items-center">
