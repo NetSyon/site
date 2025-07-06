@@ -264,9 +264,11 @@ const App = () => {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <h1 className="text-2xl font-bold text-slate-800">
-                  Net<span className="text-blue-600">Syon</span>
-                </h1>
+                <img 
+                  src="/logo-netsyon.png" 
+                  alt="NetSyon Logo" 
+                  className="h-8 w-auto"
+                />
               </div>
             </div>
             <div className="hidden md:block">
