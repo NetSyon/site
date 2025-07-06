@@ -4,6 +4,7 @@ import './App.css';
 const App = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
+  const [language, setLanguage] = useState('en');
 
   useEffect(() => {
     const handleScroll = () => {
