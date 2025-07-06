@@ -417,6 +417,7 @@ const App = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+      {showPrivacyPolicy && <PrivacyPolicyModal />}
       {/* Navigation */}
       <nav className={`fixed w-full z-50 transition-all duration-300 ${
         isScrolled ? 'bg-white/95 backdrop-blur-md shadow-lg' : 'bg-transparent'
