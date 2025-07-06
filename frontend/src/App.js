@@ -1058,6 +1058,88 @@ const App = () => {
         </div>
       </section>
 
+      {/* Help Center & Documentation Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-4">
+              {t.helpCenter.title}
+            </h2>
+            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+              {t.helpCenter.subtitle}
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-12">
+            {/* Help Center */}
+            <div>
+              <h3 className="text-3xl font-bold text-slate-800 mb-8 flex items-center">
+                <div className="bg-blue-100 p-3 rounded-lg mr-4">
+                  <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+                {t.helpCenter.helpCenter.title}
+              </h3>
+              <div className="space-y-6">
+                {t.helpCenter.helpCenter.items.map((item, index) => (
+                  <div key={index} className="bg-blue-50 p-6 rounded-xl border border-blue-100 hover:shadow-md transition-shadow">
+                    <div className="flex items-start justify-between mb-3">
+                      <h4 className="text-xl font-semibold text-slate-800">{item.title}</h4>
+                      <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
+                        {item.category}
+                      </span>
+                    </div>
+                    <p className="text-slate-600 leading-relaxed">{item.description}</p>
+                    <div className="mt-4">
+                      <button className="text-blue-600 hover:text-blue-700 font-medium flex items-center">
+                        {language === 'en' ? 'Read More' : 'Lire Plus'}
+                        <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Documentation */}
+            <div>
+              <h3 className="text-3xl font-bold text-slate-800 mb-8 flex items-center">
+                <div className="bg-green-100 p-3 rounded-lg mr-4">
+                  <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
+                </div>
+                {t.helpCenter.documentation.title}
+              </h3>
+              <div className="space-y-6">
+                {t.helpCenter.documentation.items.map((item, index) => (
+                  <div key={index} className="bg-green-50 p-6 rounded-xl border border-green-100 hover:shadow-md transition-shadow">
+                    <div className="flex items-start justify-between mb-3">
+                      <h4 className="text-xl font-semibold text-slate-800">{item.title}</h4>
+                      <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">
+                        {item.category}
+                      </span>
+                    </div>
+                    <p className="text-slate-600 leading-relaxed">{item.description}</p>
+                    <div className="mt-4">
+                      <button className="text-green-600 hover:text-green-700 font-medium flex items-center">
+                        {language === 'en' ? 'View Documentation' : 'Voir Documentation'}
+                        <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-slate-900 text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
