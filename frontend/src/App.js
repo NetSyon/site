@@ -958,7 +958,7 @@ const App = () => {
                     </div>
                     <div className="text-center">
                       <h4 className="font-semibold">{t.contact.address}</h4>
-                      <p className="text-blue-200">123 Technology Drive<br />Tech Valley, CA 94000</p>
+                      <p className="text-blue-200">123 Technology Drive<br />Montreal, QC H3B 2Y5, Canada</p>
                     </div>
                   </div>
                 </div>
