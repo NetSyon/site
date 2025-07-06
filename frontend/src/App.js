@@ -39,7 +39,7 @@ const App = () => {
         subtitle: 'IT Partner',
         description: 'Empowering homes, businesses, and enterprises with cutting-edge IT solutions. From personal tech support to enterprise-grade infrastructure.',
         exploreServices: 'Explore Services',
-        getQuote: 'Get Quote'
+        contactUs: 'Contact Us'
       },
       services: {
         title: 'Comprehensive IT Solutions',
