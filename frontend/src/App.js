@@ -271,6 +271,54 @@ const App = () => {
         company: 'Entreprise',
         support: 'Support',
         copyright: '© 2024 NetSyon. Tous droits réservés.'
+      },
+      privacyPolicy: {
+        title: 'Politique de Confidentialité',
+        lastUpdated: 'Dernière mise à jour : Décembre 2024',
+        sections: {
+          introduction: {
+            title: 'Introduction',
+            content: 'NetSyon s\'engage à protéger votre vie privée et à assurer la sécurité de vos informations personnelles. Cette Politique de Confidentialité explique comment nous collectons, utilisons, divulguons et protégeons vos informations lorsque vous visitez notre site web ou utilisez nos services de conseil IT.'
+          },
+          informationWeCollect: {
+            title: 'Informations que Nous Collectons',
+            subtitle1: 'Informations Personnelles',
+            content1: 'Nous pouvons collecter des informations personnelles que vous nous fournissez volontairement lorsque vous nous contactez pour des services, notamment : nom, adresse e-mail, numéro de téléphone, nom de l\'entreprise, titre du poste et détails du projet.',
+            subtitle2: 'Informations Collectées Automatiquement',
+            content2: 'Lorsque vous visitez notre site web, nous pouvons automatiquement collecter certaines informations sur votre appareil, notamment : adresse IP, type de navigateur, système d\'exploitation, URLs de référence et pages consultées.'
+          },
+          howWeUse: {
+            title: 'Comment Nous Utilisons Vos Informations',
+            content: 'Nous utilisons les informations collectées pour fournir et améliorer nos services de conseil IT, répondre à vos demandes, vous envoyer des informations pertinentes sur nos services, maintenir la sécurité de nos systèmes et respecter les obligations légales.'
+          },
+          dataProtection: {
+            title: 'Protection et Sécurité des Données',
+            content: 'En tant qu\'entreprise de conseil en sécurité IT, nous mettons en œuvre des mesures de sécurité standard de l\'industrie pour protéger vos informations personnelles. Nous utilisons le chiffrement, des serveurs sécurisés, des contrôles d\'accès et des audits de sécurité réguliers. Cependant, aucune méthode de transmission sur internet n\'est sécurisée à 100%.'
+          },
+          informationSharing: {
+            title: 'Partage d\'Informations',
+            content: 'Nous ne vendons, n\'échangeons ou ne louons pas vos informations personnelles à des tiers. Nous pouvons partager vos informations uniquement dans les circonstances suivantes : avec votre consentement, pour nous conformer aux obligations légales, pour protéger nos droits et notre sécurité, ou avec des prestataires de services de confiance qui nous aident à exploiter notre entreprise.'
+          },
+          yourRights: {
+            title: 'Vos Droits de Confidentialité',
+            content: 'Vous avez le droit d\'accéder, de mettre à jour ou de supprimer vos informations personnelles. Vous pouvez vous désabonner de nos communications marketing. Pour les résidents de certaines juridictions, vous pouvez avoir des droits supplémentaires sous les lois de confidentialité applicables.'
+          },
+          retention: {
+            title: 'Conservation des Données',
+            content: 'Nous conservons vos informations personnelles seulement aussi longtemps que nécessaire pour accomplir les fins pour lesquelles elles ont été collectées, respecter les obligations légales, résoudre les disputes et faire respecter nos accords.'
+          },
+          changes: {
+            title: 'Modifications de Cette Politique de Confidentialité',
+            content: 'Nous pouvons mettre à jour cette Politique de Confidentialité de temps à autre. Nous vous notifierons de tout changement en publiant la nouvelle Politique de Confidentialité sur cette page et en mettant à jour la date de "Dernière mise à jour".'
+          },
+          contact: {
+            title: 'Nous Contacter',
+            content: 'Si vous avez des questions sur cette Politique de Confidentialité ou nos pratiques de confidentialité, veuillez nous contacter à :',
+            email: 'E-mail : privacy@netsyon.com',
+            phone: 'Téléphone : +1 (555) 123-4567',
+            address: 'Adresse : 123 Technology Drive, Tech Valley, CA 94000'
+          }
+        }
       }
     }
   };
