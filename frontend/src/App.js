@@ -97,7 +97,9 @@ const App = () => {
       },
       about: {
         title: 'About NetSyon',
-        description: 'With over a decade of experience in IT consulting, NetSyon has been the trusted technology partner for individuals, small businesses, and large enterprises across the region.',
+        description: 'NetSyon is a consulting office specializing in Microsoft Cloud security, data protection, and IT solutions for businesses, SMBs, and advanced home users. With over a decade of experience in IT consulting, NetSyon has been the trusted technology partner for individuals, small businesses, and large enterprises across the region.',
+        subtitle: 'In an increasingly digital world, securing data and cloud infrastructure is critical—not only for enterprises, but also for individuals managing connected homes. NetSyon helps clients build secure, reliable, and scalable digital environments by combining strategic expertise with hands-on implementation.',
+        expertise: 'We provide tailored consulting services across the Microsoft ecosystem, helping organizations and individuals take full control of their cybersecurity posture, cloud governance, and IT infrastructure.',
         mission: {
           title: 'Mission',
           description: 'To simplify technology and empower our clients with reliable, innovative IT solutions that drive success.'
