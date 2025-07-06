@@ -173,6 +173,63 @@ const App = () => {
             address: 'Address: 123 Technology Drive, Tech Valley, CA 94000'
           }
         }
+      },
+      termsOfUse: {
+        title: 'Terms of Use',
+        lastUpdated: 'Last Updated: December 2024',
+        sections: {
+          introduction: {
+            title: 'Introduction',
+            content: 'Welcome to NetSyon. These Terms of Use govern your use of our website and IT consulting services. By accessing our website or engaging our services, you agree to be bound by these terms.'
+          },
+          acceptanceOfTerms: {
+            title: 'Acceptance of Terms',
+            content: 'By using our website or services, you acknowledge that you have read, understood, and agree to be bound by these Terms of Use and our Privacy Policy. If you do not agree to these terms, please do not use our services.'
+          },
+          servicesOffered: {
+            title: 'Services Offered',
+            content: 'NetSyon provides IT consulting services including but not limited to: Microsoft Cloud security implementation, data protection solutions, cybersecurity consulting, IT infrastructure design, and related technology services for home users, small-medium businesses, and enterprises.'
+          },
+          userResponsibilities: {
+            title: 'User Responsibilities',
+            content: 'You agree to provide accurate information when engaging our services, maintain the confidentiality of any login credentials, use our services only for lawful purposes, and comply with all applicable laws and regulations.'
+          },
+          intellectualProperty: {
+            title: 'Intellectual Property',
+            content: 'All content on our website, including text, graphics, logos, and software, is the property of NetSyon or our licensors and is protected by copyright and other intellectual property laws. Our consulting methodologies and custom solutions remain our intellectual property.'
+          },
+          serviceTerms: {
+            title: 'Service Terms and Conditions',
+            content: 'Consulting services are provided based on specific agreements with each client. Project scope, timelines, and deliverables will be defined in separate service agreements. We reserve the right to modify or discontinue services with appropriate notice.'
+          },
+          limitationOfLiability: {
+            title: 'Limitation of Liability',
+            content: 'To the maximum extent permitted by law, NetSyon shall not be liable for any indirect, incidental, special, or consequential damages arising from the use of our services. Our total liability shall not exceed the amount paid for the specific service in question.'
+          },
+          confidentiality: {
+            title: 'Confidentiality',
+            content: 'We maintain strict confidentiality regarding client information and projects. Both parties agree to maintain confidentiality of sensitive information shared during the course of our professional relationship.'
+          },
+          termination: {
+            title: 'Termination',
+            content: 'Either party may terminate services with appropriate notice as specified in individual service agreements. Upon termination, both parties remain bound by confidentiality obligations and payment terms for services rendered.'
+          },
+          governingLaw: {
+            title: 'Governing Law',
+            content: 'These Terms of Use are governed by the laws of the State of California, United States. Any disputes arising from these terms or our services shall be resolved in the courts of California.'
+          },
+          changesToTerms: {
+            title: 'Changes to Terms',
+            content: 'We reserve the right to modify these Terms of Use at any time. Changes will be posted on our website with an updated effective date. Continued use of our services after changes constitutes acceptance of the modified terms.'
+          },
+          contact: {
+            title: 'Contact Information',
+            content: 'If you have any questions about these Terms of Use, please contact us at:',
+            email: 'Email: legal@netsyon.com',
+            phone: 'Phone: +1 (555) 123-4567',
+            address: 'Address: 123 Technology Drive, Tech Valley, CA 94000'
+          }
+        }
       }
     },
     fr: {
