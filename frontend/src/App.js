@@ -6,6 +6,7 @@ const App = () => {
   const [activeSection, setActiveSection] = useState('home');
   const [language, setLanguage] = useState('en');
   const [showPrivacyPolicy, setShowPrivacyPolicy] = useState(false);
+  const [showTermsOfUse, setShowTermsOfUse] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
