@@ -225,8 +225,7 @@ const App = () => {
             title: 'Contact Information',
             content: 'If you have any questions about these Terms of Use, please contact us at:',
             email: 'Email: legal@netsyon.com',
-            phone: 'Phone: +1 (555) 123-4567',
-            address: 'Address: 123 Technology Drive, Montreal, QC H3B 2Y5, Canada'
+            phone: 'Phone: +1 (555) 123-4567'
           }
         }
       }
