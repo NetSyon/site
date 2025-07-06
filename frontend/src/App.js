@@ -513,7 +513,7 @@ const App = () => {
             </div>
           </div>
           <div className="border-t border-slate-700 mt-8 pt-8 text-center text-slate-400">
-            <p>&copy; 2024 NetSys. All rights reserved.</p>
+            <p>&copy; 2024 NetSyon. All rights reserved.</p>
           </div>
         </div>
       </footer>
