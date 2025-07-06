@@ -407,7 +407,7 @@ const App = () => {
 
             <div>
               <div className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl border border-white/20">
-                <h3 className="text-2xl font-bold mb-6">Request Consultation</h3>
+                <h3 className="text-2xl font-bold mb-6">Request Quote</h3>
                 <form className="space-y-6">
                   <div>
                     <label className="block text-sm font-medium mb-2">Name</label>
