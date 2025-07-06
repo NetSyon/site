@@ -325,6 +325,96 @@ const App = () => {
 
   const t = translations[language];
 
+  const PrivacyPolicyModal = () => (
+    <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4">
+      <div className="bg-white rounded-2xl max-w-4xl max-h-[90vh] overflow-y-auto shadow-2xl">
+        <div className="sticky top-0 bg-white border-b border-gray-200 p-6 flex justify-between items-center">
+          <h2 className="text-3xl font-bold text-slate-800">{t.privacyPolicy.title}</h2>
+          <button 
+            onClick={() => setShowPrivacyPolicy(false)}
+            className="text-slate-400 hover:text-slate-600 transition-colors"
+          >
+            <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        
+        <div className="p-6 space-y-8">
+          <p className="text-sm text-slate-500">{t.privacyPolicy.lastUpdated}</p>
+          
+          {/* Introduction */}
+          <section>
+            <h3 className="text-xl font-semibold text-slate-800 mb-3">{t.privacyPolicy.sections.introduction.title}</h3>
+            <p className="text-slate-600 leading-relaxed">{t.privacyPolicy.sections.introduction.content}</p>
+          </section>
+
+          {/* Information We Collect */}
+          <section>
+            <h3 className="text-xl font-semibold text-slate-800 mb-3">{t.privacyPolicy.sections.informationWeCollect.title}</h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-lg font-medium text-slate-700 mb-2">{t.privacyPolicy.sections.informationWeCollect.subtitle1}</h4>
+                <p className="text-slate-600 leading-relaxed">{t.privacyPolicy.sections.informationWeCollect.content1}</p>
+              </div>
+              <div>
+                <h4 className="text-lg font-medium text-slate-700 mb-2">{t.privacyPolicy.sections.informationWeCollect.subtitle2}</h4>
+                <p className="text-slate-600 leading-relaxed">{t.privacyPolicy.sections.informationWeCollect.content2}</p>
+              </div>
+            </div>
+          </section>
+
+          {/* How We Use Your Information */}
+          <section>
+            <h3 className="text-xl font-semibold text-slate-800 mb-3">{t.privacyPolicy.sections.howWeUse.title}</h3>
+            <p className="text-slate-600 leading-relaxed">{t.privacyPolicy.sections.howWeUse.content}</p>
+          </section>
+
+          {/* Data Protection */}
+          <section>
+            <h3 className="text-xl font-semibold text-slate-800 mb-3">{t.privacyPolicy.sections.dataProtection.title}</h3>
+            <p className="text-slate-600 leading-relaxed">{t.privacyPolicy.sections.dataProtection.content}</p>
+          </section>
+
+          {/* Information Sharing */}
+          <section>
+            <h3 className="text-xl font-semibold text-slate-800 mb-3">{t.privacyPolicy.sections.informationSharing.title}</h3>
+            <p className="text-slate-600 leading-relaxed">{t.privacyPolicy.sections.informationSharing.content}</p>
+          </section>
+
+          {/* Your Rights */}
+          <section>
+            <h3 className="text-xl font-semibold text-slate-800 mb-3">{t.privacyPolicy.sections.yourRights.title}</h3>
+            <p className="text-slate-600 leading-relaxed">{t.privacyPolicy.sections.yourRights.content}</p>
+          </section>
+
+          {/* Data Retention */}
+          <section>
+            <h3 className="text-xl font-semibold text-slate-800 mb-3">{t.privacyPolicy.sections.retention.title}</h3>
+            <p className="text-slate-600 leading-relaxed">{t.privacyPolicy.sections.retention.content}</p>
+          </section>
+
+          {/* Changes */}
+          <section>
+            <h3 className="text-xl font-semibold text-slate-800 mb-3">{t.privacyPolicy.sections.changes.title}</h3>
+            <p className="text-slate-600 leading-relaxed">{t.privacyPolicy.sections.changes.content}</p>
+          </section>
+
+          {/* Contact */}
+          <section>
+            <h3 className="text-xl font-semibold text-slate-800 mb-3">{t.privacyPolicy.sections.contact.title}</h3>
+            <p className="text-slate-600 leading-relaxed mb-4">{t.privacyPolicy.sections.contact.content}</p>
+            <div className="bg-slate-50 p-4 rounded-lg space-y-2">
+              <p className="text-slate-700 font-medium">{t.privacyPolicy.sections.contact.email}</p>
+              <p className="text-slate-700 font-medium">{t.privacyPolicy.sections.contact.phone}</p>
+              <p className="text-slate-700 font-medium">{t.privacyPolicy.sections.contact.address}</p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  );
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
       {/* Navigation */}
