@@ -340,7 +340,7 @@ const App = () => {
               <div className="relative">
                 <img 
                   src="https://images.unsplash.com/photo-1573497619860-6d82917e4ec8" 
-                  alt="NetSys Team"
+                  alt="NetSyon Team"
                   className="w-full h-96 object-cover rounded-2xl shadow-xl"
                 />
                 <div className="absolute inset-0 bg-gradient-to-tr from-blue-600/20 to-transparent rounded-2xl"></div>
