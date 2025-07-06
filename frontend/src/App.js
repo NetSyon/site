@@ -526,7 +526,7 @@ const App = () => {
             <div className="lg:pl-8">
               <div className="relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1637665662134-db459c1bbb46" 
+                  src="https://images.unsplash.com/photo-1618544976420-1f213fcf2052" 
                   alt="NetSyon Team"
                   className="w-full h-96 object-cover rounded-2xl shadow-xl"
                 />
