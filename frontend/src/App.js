@@ -306,7 +306,7 @@ const App = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('https://images.pexels.com/photos/2881232/pexels-photo-2881232.jpeg')`,
+            backgroundImage: `url('https://images.pexels.com/photos/5475750/pexels-photo-5475750.jpeg')`,
             filter: 'brightness(0.6)'
           }}
         ></div>
