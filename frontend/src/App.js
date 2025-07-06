@@ -210,26 +210,11 @@ const App = () => {
       },
       contact: {
         title: 'Prêt à Commencer?',
-        subtitle: 'Contactez-nous aujourd\'hui pour un devis de projet et découvrez comment NetSyon peut transformer votre expérience technologique',
+        subtitle: 'Contactez-nous aujourd\'hui pour découvrir comment NetSyon peut transformer votre expérience technologique',
         getInTouch: 'Nous Contacter',
         phone: 'Téléphone',
         email: 'E-mail',
-        address: 'Adresse',
-        requestQuote: 'Demander un Devis',
-        form: {
-          name: 'Nom',
-          namePlaceholder: 'Votre Nom',
-          email: 'E-mail',
-          emailPlaceholder: 'votre@email.com',
-          serviceType: 'Type de Service',
-          selectService: 'Sélectionner un Service',
-          homeSupport: 'Support Utilisateur Domestique',
-          smb: 'Petite/Moyenne Entreprise',
-          enterprise: 'Solutions Entreprise',
-          message: 'Message',
-          messagePlaceholder: 'Parlez-nous de vos besoins IT...',
-          sendMessage: 'Envoyer le Message'
-        }
+        address: 'Adresse'
       },
       footer: {
         description: 'Votre partenaire IT de confiance pour des solutions technologiques complètes.',
