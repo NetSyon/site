@@ -434,6 +434,63 @@ const App = () => {
             address: 'Adresse : 123 Technology Drive, Montréal, QC H3B 2Y5, Canada'
           }
         }
+      },
+      termsOfUse: {
+        title: 'Conditions d\'Utilisation',
+        lastUpdated: 'Dernière mise à jour : Décembre 2024',
+        sections: {
+          introduction: {
+            title: 'Introduction',
+            content: 'Bienvenue chez NetSyon. Ces Conditions d\'Utilisation régissent votre utilisation de notre site web et de nos services de conseil IT. En accédant à notre site web ou en utilisant nos services, vous acceptez d\'être lié par ces conditions.'
+          },
+          acceptanceOfTerms: {
+            title: 'Acceptation des Conditions',
+            content: 'En utilisant notre site web ou nos services, vous reconnaissez avoir lu, compris et accepté d\'être lié par ces Conditions d\'Utilisation et notre Politique de Confidentialité. Si vous n\'acceptez pas ces conditions, veuillez ne pas utiliser nos services.'
+          },
+          servicesOffered: {
+            title: 'Services Offerts',
+            content: 'NetSyon fournit des services de conseil IT incluant mais sans s\'y limiter : implémentation de sécurité Microsoft Cloud, solutions de protection des données, conseil en cybersécurité, conception d\'infrastructure IT, et services technologiques connexes pour utilisateurs domestiques, petites-moyennes entreprises, et entreprises.'
+          },
+          userResponsibilities: {
+            title: 'Responsabilités de l\'Utilisateur',
+            content: 'Vous acceptez de fournir des informations exactes lors de l\'utilisation de nos services, de maintenir la confidentialité de tous identifiants de connexion, d\'utiliser nos services uniquement à des fins légales, et de respecter toutes les lois et réglementations applicables.'
+          },
+          intellectualProperty: {
+            title: 'Propriété Intellectuelle',
+            content: 'Tout le contenu de notre site web, y compris le texte, les graphiques, les logos et les logiciels, est la propriété de NetSyon ou de nos concédants de licence et est protégé par le droit d\'auteur et autres lois sur la propriété intellectuelle. Nos méthodologies de conseil et solutions personnalisées restent notre propriété intellectuelle.'
+          },
+          serviceTerms: {
+            title: 'Conditions de Service',
+            content: 'Les services de conseil sont fournis sur la base d\'accords spécifiques avec chaque client. La portée du projet, les délais et les livrables seront définis dans des accords de service séparés. Nous nous réservons le droit de modifier ou d\'interrompre les services avec un préavis approprié.'
+          },
+          limitationOfLiability: {
+            title: 'Limitation de Responsabilité',
+            content: 'Dans la mesure maximale permise par la loi, NetSyon ne sera pas responsable des dommages indirects, accessoires, spéciaux ou consécutifs découlant de l\'utilisation de nos services. Notre responsabilité totale ne dépassera pas le montant payé pour le service spécifique en question.'
+          },
+          confidentiality: {
+            title: 'Confidentialité',
+            content: 'Nous maintenons une confidentialité stricte concernant les informations et projets clients. Les deux parties acceptent de maintenir la confidentialité des informations sensibles partagées au cours de notre relation professionnelle.'
+          },
+          termination: {
+            title: 'Résiliation',
+            content: 'Chaque partie peut résilier les services avec un préavis approprié tel que spécifié dans les accords de service individuels. Lors de la résiliation, les deux parties restent liées par les obligations de confidentialité et les conditions de paiement pour les services rendus.'
+          },
+          governingLaw: {
+            title: 'Loi Applicable',
+            content: 'Ces Conditions d\'Utilisation sont régies par les lois de la Province de Québec, Canada. Tout litige découlant de ces conditions ou de nos services sera résolu devant les tribunaux du Québec, Canada.'
+          },
+          changesToTerms: {
+            title: 'Modifications des Conditions',
+            content: 'Nous nous réservons le droit de modifier ces Conditions d\'Utilisation à tout moment. Les modifications seront publiées sur notre site web avec une date d\'entrée en vigueur mise à jour. L\'utilisation continue de nos services après les modifications constitue l\'acceptation des conditions modifiées.'
+          },
+          contact: {
+            title: 'Informations de Contact',
+            content: 'Si vous avez des questions sur ces Conditions d\'Utilisation, veuillez nous contacter à :',
+            email: 'E-mail : legal@netsyon.com',
+            phone: 'Téléphone : +1 (555) 123-4567',
+            address: 'Adresse : 123 Technology Drive, Montréal, QC H3B 2Y5, Canada'
+          }
+        }
       }
     }
   };
