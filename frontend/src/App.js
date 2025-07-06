@@ -518,7 +518,6 @@ const App = () => {
             <div className="bg-slate-50 p-4 rounded-lg space-y-2">
               <p className="text-slate-700 font-medium">{t.privacyPolicy.sections.contact.email}</p>
               <p className="text-slate-700 font-medium">{t.privacyPolicy.sections.contact.phone}</p>
-              <p className="text-slate-700 font-medium">{t.privacyPolicy.sections.contact.address}</p>
             </div>
           </section>
         </div>
