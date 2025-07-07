@@ -116,7 +116,7 @@ const App = () => {
         title: 'Ready to Get Started?',
         subtitle: 'Contact us today to discover how NetSyon can transform your technology experience',
         getInTouch: 'Get in Touch',
-        phone: 'Phone',
+        phone: 'WhatsApp',
         email: 'Email',
         address: 'Address'
       },
@@ -170,7 +170,7 @@ const App = () => {
             title: 'Contact Us',
             content: 'If you have any questions about this Privacy Policy or our privacy practices, please contact us at:',
             email: 'Email: privacy@netsyon.com',
-            phone: 'Phone: +1 (514) 400-4256'
+            phone: 'WhatsApp: +1 (514) 400-4279'
           }
         }
       },
@@ -226,7 +226,7 @@ const App = () => {
             title: 'Contact Information',
             content: 'If you have any questions about these Terms of Use, please contact us at:',
             email: 'Email: legal@netsyon.com',
-            phone: 'Phone: +1 (514) 400-4256'
+            phone: 'WhatsApp: +1 (514) 400-4279'
           }
         }
       }
@@ -318,7 +318,7 @@ const App = () => {
         title: 'Prêt à Commencer?',
         subtitle: 'Contactez-nous aujourd\'hui pour découvrir comment NetSyon peut transformer votre expérience technologique',
         getInTouch: 'Nous Contacter',
-        phone: 'Téléphone',
+        phone: 'WhatsApp',
         email: 'E-mail',
         address: 'Adresse'
       },
@@ -372,7 +372,7 @@ const App = () => {
             title: 'Nous Contacter',
             content: 'Si vous avez des questions sur cette Politique de Confidentialité ou nos pratiques de confidentialité, veuillez nous contacter à :',
             email: 'E-mail : privacy@netsyon.com',
-            phone: 'Téléphone : +1 (514) 400-4256'
+            phone: 'WhatsApp : +1 (514) 400-4279'
           }
         }
       },
@@ -428,7 +428,7 @@ const App = () => {
             title: 'Informations de Contact',
             content: 'Si vous avez des questions sur ces Conditions d\'Utilisation, veuillez nous contacter à :',
             email: 'E-mail : legal@netsyon.com',
-            phone: 'Téléphone : +1 (514) 400-4256'
+            phone: 'WhatsApp : +1 (514) 400-4279'
           }
         }
       }
@@ -932,7 +932,7 @@ const App = () => {
                     </div>
                     <div className="text-center">
                       <h4 className="font-semibold">{t.contact.phone}</h4>
-                      <p className="text-blue-200">+1 (514) 400-4256</p>
+                      <p className="text-blue-200">+1 (514) 400-4279</p>
                     </div>
                   </div>
                   <div className="flex items-center justify-center">
