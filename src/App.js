@@ -7,6 +7,7 @@ const App = () => {
   const [language, setLanguage] = useState('en');
   const [showPrivacyPolicy, setShowPrivacyPolicy] = useState(false);
   const [showTermsOfUse, setShowTermsOfUse] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -744,9 +745,9 @@ const App = () => {
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <img 
-  src={`${process.env.PUBLIC_URL}/logo-netsyon.png`} 
-  alt="NetSyon Logo" 
-  className="h-12 w-auto"
+                  src={`${process.env.PUBLIC_URL}/logo-netsyon.png`} 
+                  alt="NetSyon Logo" 
+                  className="h-12 w-auto"
                 />
               </div>
             </div>
@@ -775,7 +776,66 @@ const App = () => {
                 {t.nav.getStarted}
               </button>
             </div>
+
+            {/* Mobile menu button */}
+            <div className="md:hidden">
+              <button
+                onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                className={`${isScrolled ? 'text-slate-700' : 'text-white'} p-2`}
+              >
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              </button>
+            </div>
           </div>
+          
+          {/* Mobile menu */}
+          {mobileMenuOpen && (
+            <div className="md:hidden">
+              <div className="px-2 pt-2 pb-3 space-y-1 bg-white/95 backdrop-blur-md shadow-lg rounded-lg mt-2">
+                <button 
+                  onClick={() => {scrollToSection('home'); setMobileMenuOpen(false);}}
+                  className="block w-full text-left px-3 py-2 text-slate-700 hover:text-blue-600 font-medium"
+                >
+                  {t.nav.home}
+                </button>
+                <button 
+                  onClick={() => {scrollToSection('services'); setMobileMenuOpen(false);}}
+                  className="block w-full text-left px-3 py-2 text-slate-700 hover:text-blue-600 font-medium"
+                >
+                  {t.nav.services}
+                </button>
+                <button 
+                  onClick={() => {scrollToSection('about'); setMobileMenuOpen(false);}}
+                  className="block w-full text-left px-3 py-2 text-slate-700 hover:text-blue-600 font-medium"
+                >
+                  {t.nav.about}
+                </button>
+                <button 
+                  onClick={() => {scrollToSection('contact'); setMobileMenuOpen(false);}}
+                  className="block w-full text-left px-3 py-2 text-slate-700 hover:text-blue-600 font-medium"
+                >
+                  {t.nav.contact}
+                </button>
+                <button 
+                  onClick={() => {toggleLanguage(); setMobileMenuOpen(false);}}
+                  className="flex items-center space-x-2 w-full text-left px-3 py-2 text-slate-700 hover:text-blue-600 font-medium"
+                >
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
+                  </svg>
+                  <span>{language === 'en' ? 'FR' : 'EN'}</span>
+                </button>
+                <button 
+                  onClick={() => {scrollToSection('contact'); setMobileMenuOpen(false);}}
+                  className="block w-full text-left px-3 py-2 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors mt-2"
+                >
+                  {t.nav.getStarted}
+                </button>
+              </div>
+            </div>
+          )}
         </div>
       </nav>
 
@@ -1064,9 +1124,9 @@ const App = () => {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <img 
-  src={`${process.env.PUBLIC_URL}/logo-netsyon.png`} 
-  alt="NetSyon Logo" 
-  className="h-12 w-auto"
+                src={`${process.env.PUBLIC_URL}/logo-netsyon.png`} 
+                alt="NetSyon Logo" 
+                className="h-12 w-auto"
               />
               <p className="text-slate-400 mb-4">
                 {t.footer.description}
@@ -1082,18 +1142,18 @@ const App = () => {
             <div>
               <h4 className="text-lg font-semibold mb-4">{t.footer.services}</h4>
               <ul className="space-y-2 text-slate-400">
-                <li><a href="#" className="hover:text-white transition-colors">{language === 'en' ? 'Home IT Support' : 'Support IT Domestique'}</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">{language === 'en' ? 'Business Solutions' : 'Solutions Entreprise'}</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">{language === 'en' ? 'Enterprise Infrastructure' : 'Infrastructure Entreprise'}</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">{language === 'en' ? 'Cloud Services' : 'Services Cloud'}</a></li>
+                <li><button onClick={() => scrollToSection('services')} className="hover:text-white transition-colors">{language === 'en' ? 'Home IT Support' : 'Support IT Domestique'}</button></li>
+                <li><button onClick={() => scrollToSection('services')} className="hover:text-white transition-colors">{language === 'en' ? 'Business Solutions' : 'Solutions Entreprise'}</button></li>
+                <li><button onClick={() => scrollToSection('services')} className="hover:text-white transition-colors">{language === 'en' ? 'Enterprise Infrastructure' : 'Infrastructure Entreprise'}</button></li>
+                <li><button onClick={() => scrollToSection('services')} className="hover:text-white transition-colors">{language === 'en' ? 'Cloud Services' : 'Services Cloud'}</button></li>
               </ul>
             </div>
             <div>
               <h4 className="text-lg font-semibold mb-4">{t.footer.company}</h4>
               <ul className="space-y-2 text-slate-400">
-                <li><a href="#" className="hover:text-white transition-colors">{language === 'en' ? 'About Us' : 'À Propos'}</a></li>
+                <li><button onClick={() => scrollToSection('about')} className="hover:text-white transition-colors">{language === 'en' ? 'About Us' : 'À Propos'}</button></li>
                 <li><a href="#" className="hover:text-white transition-colors">{language === 'en' ? 'Our Team' : 'Notre Équipe'}</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">{t.nav.contact}</a></li>
+                <li><button onClick={() => scrollToSection('contact')} className="hover:text-white transition-colors">{t.nav.contact}</button></li>
               </ul>
             </div>
             <div>
