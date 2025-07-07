@@ -79,8 +79,7 @@ const App = () => {
             'Microsoft Defender Suite Deployment',
             'Information Protection & Classification'
           ]
-        },
-        learnMore: ''
+        }
       },
       whyChoose: {
         title: 'Why Choose NetSyon?',
@@ -116,7 +115,7 @@ const App = () => {
         title: 'Ready to Get Started?',
         subtitle: 'Contact us today to discover how NetSyon can transform your technology experience',
         getInTouch: 'Get in Touch',
-        phone: 'WhatsApp',
+        whatsapp: 'WhatsApp',
         email: 'Email',
         address: 'Address'
       },
@@ -170,7 +169,7 @@ const App = () => {
             title: 'Contact Us',
             content: 'If you have any questions about this Privacy Policy or our privacy practices, please contact us at:',
             email: 'Email: privacy@netsyon.com',
-            phone: 'WhatsApp: +1 (514) 400-4279'
+            phone: 'Phone: +1 (514) 400-4256'
           }
         }
       },
@@ -226,7 +225,7 @@ const App = () => {
             title: 'Contact Information',
             content: 'If you have any questions about these Terms of Use, please contact us at:',
             email: 'Email: legal@netsyon.com',
-            phone: 'WhatsApp: +1 (514) 400-4279'
+            phone: 'Phone: +1 (514) 400-4256'
           }
         }
       }
@@ -281,8 +280,7 @@ const App = () => {
             'Déploiement de la Suite Microsoft Defender',
             'Protection et Classification des Informations'
           ]
-        },
-        learnMore: ''
+        }
       },
       whyChoose: {
         title: 'Pourquoi Choisir NetSyon?',
@@ -318,7 +316,7 @@ const App = () => {
         title: 'Prêt à Commencer?',
         subtitle: 'Contactez-nous aujourd\'hui pour découvrir comment NetSyon peut transformer votre expérience technologique',
         getInTouch: 'Nous Contacter',
-        phone: 'WhatsApp',
+        whatsapp: 'WhatsApp',
         email: 'E-mail',
         address: 'Adresse'
       },
@@ -372,7 +370,7 @@ const App = () => {
             title: 'Nous Contacter',
             content: 'Si vous avez des questions sur cette Politique de Confidentialité ou nos pratiques de confidentialité, veuillez nous contacter à :',
             email: 'E-mail : privacy@netsyon.com',
-            phone: 'WhatsApp : +1 (514) 400-4279'
+            phone: 'Téléphone : +1 (514) 400-4256'
           }
         }
       },
@@ -428,7 +426,7 @@ const App = () => {
             title: 'Informations de Contact',
             content: 'Si vous avez des questions sur ces Conditions d\'Utilisation, veuillez nous contacter à :',
             email: 'E-mail : legal@netsyon.com',
-            phone: 'WhatsApp : +1 (514) 400-4279'
+            phone: 'Téléphone : +1 (514) 400-4256'
           }
         }
       }
@@ -733,7 +731,7 @@ const App = () => {
               </div>
               <h3 className="text-2xl font-bold text-slate-800 mb-4">{t.services.home.title}</h3>
               <p className="text-slate-600 mb-6">{t.services.home.description}</p>
-              <ul className="text-slate-600 space-y-2 mb-8 flex-grow">
+              <ul className="text-slate-600 space-y-2 flex-grow">
                 {t.services.home.items.map((item, index) => (
                   <li key={index} className="flex items-center">
                     <svg className="w-5 h-5 text-blue-600 mr-3" fill="currentColor" viewBox="0 0 20 20">
@@ -743,9 +741,6 @@ const App = () => {
                   </li>
                 ))}
               </ul>
-              <button className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors mt-auto">
-                {t.services.learnMore}
-              </button>
             </div>
 
             {/* SMB */}
@@ -757,7 +752,7 @@ const App = () => {
               </div>
               <h3 className="text-2xl font-bold text-slate-800 mb-4">{t.services.smb.title}</h3>
               <p className="text-slate-600 mb-6">{t.services.smb.description}</p>
-              <ul className="text-slate-600 space-y-2 mb-8 flex-grow">
+              <ul className="text-slate-600 space-y-2 flex-grow">
                 {t.services.smb.items.map((item, index) => (
                   <li key={index} className="flex items-center">
                     <svg className="w-5 h-5 text-green-600 mr-3" fill="currentColor" viewBox="0 0 20 20">
@@ -767,9 +762,6 @@ const App = () => {
                   </li>
                 ))}
               </ul>
-              <button className="w-full bg-green-600 text-white py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors mt-auto">
-                {t.services.learnMore}
-              </button>
             </div>
 
             {/* Enterprise */}
@@ -781,7 +773,7 @@ const App = () => {
               </div>
               <h3 className="text-2xl font-bold text-slate-800 mb-4">{t.services.enterprise.title}</h3>
               <p className="text-slate-600 mb-6">{t.services.enterprise.description}</p>
-              <ul className="text-slate-600 space-y-2 mb-8 flex-grow">
+              <ul className="text-slate-600 space-y-2 flex-grow">
                 {t.services.enterprise.items.map((item, index) => (
                   <li key={index} className="flex items-center">
                     <svg className="w-5 h-5 text-purple-600 mr-3" fill="currentColor" viewBox="0 0 20 20">
@@ -791,9 +783,6 @@ const App = () => {
                   </li>
                 ))}
               </ul>
-              <button className="w-full bg-purple-600 text-white py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors mt-auto">
-                {t.services.learnMore}
-              </button>
             </div>
           </div>
         </div>
@@ -931,8 +920,15 @@ const App = () => {
                       </svg>
                     </div>
                     <div className="text-center">
-                      <h4 className="font-semibold">{t.contact.phone}</h4>
-                      <p className="text-blue-200">+1 (514) 400-4279</p>
+                      <h4 className="font-semibold">{t.contact.whatsapp}</h4>
+                      <a 
+                        href="http://wa.me/15144004279" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-blue-200 hover:text-white transition-colors"
+                      >
+                        +1 (514) 400-4279
+                      </a>
                     </div>
                   </div>
                   <div className="flex items-center justify-center">
