@@ -744,9 +744,9 @@ const App = () => {
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <img 
-                  src="/logo-netsyon.png" 
-                  alt="NetSyon Logo" 
-                  className="h-8 w-auto"
+  src={`${process.env.PUBLIC_URL}/logo-netsyon.png`} 
+  alt="NetSyon Logo" 
+  className="h-8 w-auto"
                 />
               </div>
             </div>
@@ -1064,9 +1064,9 @@ const App = () => {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <img 
-                src="/logo-netsyon.png" 
-                alt="NetSyon Logo" 
-                className="h-8 w-auto mb-4"
+  src={`${process.env.PUBLIC_URL}/logo-netsyon.png`} 
+  alt="NetSyon Logo" 
+  className="h-8 w-auto"
               />
               <p className="text-slate-400 mb-4">
                 {t.footer.description}
