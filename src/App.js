@@ -746,7 +746,7 @@ const App = () => {
                 <img 
   src={`${process.env.PUBLIC_URL}/logo-netsyon.png`} 
   alt="NetSyon Logo" 
-  className="h-8 w-auto"
+  className="h-12 w-auto"
                 />
               </div>
             </div>
@@ -1066,7 +1066,7 @@ const App = () => {
               <img 
   src={`${process.env.PUBLIC_URL}/logo-netsyon.png`} 
   alt="NetSyon Logo" 
-  className="h-8 w-auto"
+  className="h-12 w-auto"
               />
               <p className="text-slate-400 mb-4">
                 {t.footer.description}
