@@ -80,7 +80,7 @@ const App = () => {
             'Information Protection & Classification'
           ]
         },
-        learnMore: 'Learn More'
+        learnMore: ''
       },
       whyChoose: {
         title: 'Why Choose NetSyon?',
@@ -118,60 +118,6 @@ const App = () => {
         getInTouch: 'Get in Touch',
         phone: 'Phone',
         email: 'Email',
-        helpCenter: {
-          title: 'Help Center & Documentation',
-          subtitle: 'Resources and guides to help you with your IT needs',
-          helpCenter: {
-            title: 'Help Center',
-            items: [
-              {
-                title: 'Network Setup Guide',
-                description: 'Step-by-step instructions for setting up secure home and business networks',
-                category: 'Networking'
-              },
-              {
-                title: 'Password Security Best Practices',
-                description: 'Learn how to create and manage strong passwords for maximum security',
-                category: 'Security'
-              },
-              {
-                title: 'Microsoft 365 Security Setup',
-                description: 'Configure MFA, conditional access, and data protection in your Microsoft environment',
-                category: 'Cloud Security'
-              },
-              {
-                title: 'Backup & Recovery Planning',
-                description: 'Essential strategies for protecting your data and ensuring business continuity',
-                category: 'Data Protection'
-              }
-            ]
-          },
-          documentation: {
-            title: 'Documentation',
-            items: [
-              {
-                title: 'DLP Implementation Guide',
-                description: 'Complete documentation for deploying Data Loss Prevention across your organization',
-                category: 'Enterprise'
-              },
-              {
-                title: 'Conditional Access Policies',
-                description: 'Technical guide for designing and implementing conditional access in Azure AD',
-                category: 'Identity Management'
-              },
-              {
-                title: 'Home Network Security Checklist',
-                description: 'Comprehensive checklist to secure your home network and IoT devices',
-                category: 'Home Security'
-              },
-              {
-                title: 'Incident Response Procedures',
-                description: 'Step-by-step procedures for responding to cybersecurity incidents',
-                category: 'Security Operations'
-              }
-            ]
-          }
-        },
         address: 'Address'
       },
       footer: {
@@ -336,7 +282,7 @@ const App = () => {
             'Protection et Classification des Informations'
           ]
         },
-        learnMore: 'En Savoir Plus'
+        learnMore: ''
       },
       whyChoose: {
         title: 'Pourquoi Choisir NetSyon?',
@@ -375,60 +321,6 @@ const App = () => {
         phone: 'Téléphone',
         email: 'E-mail',
         address: 'Adresse'
-      },
-      helpCenter: {
-        title: 'Centre d\'Aide & Documentation',
-        subtitle: 'Ressources et guides pour vous aider avec vos besoins IT',
-        helpCenter: {
-          title: 'Centre d\'Aide',
-          items: [
-            {
-              title: 'Guide de Configuration Réseau',
-              description: 'Instructions détaillées pour configurer des réseaux domestiques et professionnels sécurisés',
-              category: 'Réseautage'
-            },
-            {
-              title: 'Meilleures Pratiques de Sécurité des Mots de Passe',
-              description: 'Apprenez à créer et gérer des mots de passe forts pour une sécurité maximale',
-              category: 'Sécurité'
-            },
-            {
-              title: 'Configuration Sécurité Microsoft 365',
-              description: 'Configurez MFA, accès conditionnel et protection des données dans votre environnement Microsoft',
-              category: 'Sécurité Cloud'
-            },
-            {
-              title: 'Planification de Sauvegarde & Récupération',
-              description: 'Stratégies essentielles pour protéger vos données et assurer la continuité d\'activité',
-              category: 'Protection des Données'
-            }
-          ]
-        },
-        documentation: {
-          title: 'Documentation',
-          items: [
-            {
-              title: 'Guide d\'Implémentation DLP',
-              description: 'Documentation complète pour déployer la Prévention des Pertes de Données dans votre organisation',
-              category: 'Entreprise'
-            },
-            {
-              title: 'Politiques d\'Accès Conditionnel',
-              description: 'Guide technique pour concevoir et implémenter l\'accès conditionnel dans Azure AD',
-              category: 'Gestion d\'Identité'
-            },
-            {
-              title: 'Liste de Vérification Sécurité Réseau Domestique',
-              description: 'Liste complète pour sécuriser votre réseau domestique et appareils IoT',
-              category: 'Sécurité Domestique'
-            },
-            {
-              title: 'Procédures de Réponse aux Incidents',
-              description: 'Procédures détaillées pour répondre aux incidents de cybersécurité',
-              category: 'Opérations de Sécurité'
-            }
-          ]
-        }
       },
       footer: {
         description: 'Votre partenaire IT de confiance pour des solutions technologiques complètes.',
@@ -652,71 +544,13 @@ const App = () => {
         <div className="p-6 space-y-8">
           <p className="text-sm text-slate-500">{t.termsOfUse.lastUpdated}</p>
           
-          {/* Introduction */}
-          <section>
-            <h3 className="text-xl font-semibold text-slate-800 mb-3">{t.termsOfUse.sections.introduction.title}</h3>
-            <p className="text-slate-600 leading-relaxed">{t.termsOfUse.sections.introduction.content}</p>
-          </section>
-
-          {/* Acceptance of Terms */}
-          <section>
-            <h3 className="text-xl font-semibold text-slate-800 mb-3">{t.termsOfUse.sections.acceptanceOfTerms.title}</h3>
-            <p className="text-slate-600 leading-relaxed">{t.termsOfUse.sections.acceptanceOfTerms.content}</p>
-          </section>
-
-          {/* Services Offered */}
-          <section>
-            <h3 className="text-xl font-semibold text-slate-800 mb-3">{t.termsOfUse.sections.servicesOffered.title}</h3>
-            <p className="text-slate-600 leading-relaxed">{t.termsOfUse.sections.servicesOffered.content}</p>
-          </section>
-
-          {/* User Responsibilities */}
-          <section>
-            <h3 className="text-xl font-semibold text-slate-800 mb-3">{t.termsOfUse.sections.userResponsibilities.title}</h3>
-            <p className="text-slate-600 leading-relaxed">{t.termsOfUse.sections.userResponsibilities.content}</p>
-          </section>
-
-          {/* Intellectual Property */}
-          <section>
-            <h3 className="text-xl font-semibold text-slate-800 mb-3">{t.termsOfUse.sections.intellectualProperty.title}</h3>
-            <p className="text-slate-600 leading-relaxed">{t.termsOfUse.sections.intellectualProperty.content}</p>
-          </section>
-
-          {/* Service Terms */}
-          <section>
-            <h3 className="text-xl font-semibold text-slate-800 mb-3">{t.termsOfUse.sections.serviceTerms.title}</h3>
-            <p className="text-slate-600 leading-relaxed">{t.termsOfUse.sections.serviceTerms.content}</p>
-          </section>
-
-          {/* Limitation of Liability */}
-          <section>
-            <h3 className="text-xl font-semibold text-slate-800 mb-3">{t.termsOfUse.sections.limitationOfLiability.title}</h3>
-            <p className="text-slate-600 leading-relaxed">{t.termsOfUse.sections.limitationOfLiability.content}</p>
-          </section>
-
-          {/* Confidentiality */}
-          <section>
-            <h3 className="text-xl font-semibold text-slate-800 mb-3">{t.termsOfUse.sections.confidentiality.title}</h3>
-            <p className="text-slate-600 leading-relaxed">{t.termsOfUse.sections.confidentiality.content}</p>
-          </section>
-
-          {/* Termination */}
-          <section>
-            <h3 className="text-xl font-semibold text-slate-800 mb-3">{t.termsOfUse.sections.termination.title}</h3>
-            <p className="text-slate-600 leading-relaxed">{t.termsOfUse.sections.termination.content}</p>
-          </section>
-
-          {/* Governing Law */}
-          <section>
-            <h3 className="text-xl font-semibold text-slate-800 mb-3">{t.termsOfUse.sections.governingLaw.title}</h3>
-            <p className="text-slate-600 leading-relaxed">{t.termsOfUse.sections.governingLaw.content}</p>
-          </section>
-
-          {/* Changes to Terms */}
-          <section>
-            <h3 className="text-xl font-semibold text-slate-800 mb-3">{t.termsOfUse.sections.changesToTerms.title}</h3>
-            <p className="text-slate-600 leading-relaxed">{t.termsOfUse.sections.changesToTerms.content}</p>
-          </section>
+          {/* All terms sections */}
+          {Object.entries(t.termsOfUse.sections).filter(([key]) => key !== 'contact').map(([key, section]) => (
+            <section key={key}>
+              <h3 className="text-xl font-semibold text-slate-800 mb-3">{section.title}</h3>
+              <p className="text-slate-600 leading-relaxed">{section.content}</p>
+            </section>
+          ))}
 
           {/* Contact */}
           <section>
@@ -736,6 +570,7 @@ const App = () => {
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
       {showPrivacyPolicy && <PrivacyPolicyModal />}
       {showTermsOfUse && <TermsOfUseModal />}
+      
       {/* Navigation */}
       <nav className={`fixed w-full z-50 transition-all duration-300 ${
         isScrolled ? 'bg-white/95 backdrop-blur-md shadow-lg' : 'bg-transparent'
@@ -1152,15 +987,12 @@ const App = () => {
               <h4 className="text-lg font-semibold mb-4">{t.footer.company}</h4>
               <ul className="space-y-2 text-slate-400">
                 <li><button onClick={() => scrollToSection('about')} className="hover:text-white transition-colors">{language === 'en' ? 'About Us' : 'À Propos'}</button></li>
-                <li><a href="#" className="hover:text-white transition-colors">{language === 'en' ? 'Our Team' : 'Notre Équipe'}</a></li>
                 <li><button onClick={() => scrollToSection('contact')} className="hover:text-white transition-colors">{t.nav.contact}</button></li>
               </ul>
             </div>
             <div>
               <h4 className="text-lg font-semibold mb-4">{t.footer.support}</h4>
               <ul className="space-y-2 text-slate-400">
-                <li><a href="#" className="hover:text-white transition-colors">{language === 'en' ? 'Help Center' : 'Centre d\'Aide'}</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">{language === 'en' ? 'Documentation' : 'Documentation'}</a></li>
                 <li><button onClick={() => setShowPrivacyPolicy(true)} className="hover:text-white transition-colors text-left">{language === 'en' ? 'Privacy Policy' : 'Politique de Confidentialité'}</button></li>
                 <li><button onClick={() => setShowTermsOfUse(true)} className="hover:text-white transition-colors text-left">{language === 'en' ? 'Terms of Service' : 'Conditions d\'Utilisation'}</button></li>
               </ul>
