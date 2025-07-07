@@ -169,7 +169,7 @@ const App = () => {
             title: 'Contact Us',
             content: 'If you have any questions about this Privacy Policy or our privacy practices, please contact us at:',
             email: 'Email: privacy@netsyon.com',
-            phone: 'Phone: +1 (514) 400-4256'
+            phone: 'WhatsApp: +1 (514) 400-4279'
           }
         }
       },
@@ -225,7 +225,7 @@ const App = () => {
             title: 'Contact Information',
             content: 'If you have any questions about these Terms of Use, please contact us at:',
             email: 'Email: legal@netsyon.com',
-            phone: 'Phone: +1 (514) 400-4256'
+            phone: 'WhatsApp: +1 (514) 400-4279'
           }
         }
       }
@@ -370,7 +370,7 @@ const App = () => {
             title: 'Nous Contacter',
             content: 'Si vous avez des questions sur cette Politique de Confidentialité ou nos pratiques de confidentialité, veuillez nous contacter à :',
             email: 'E-mail : privacy@netsyon.com',
-            phone: 'Téléphone : +1 (514) 400-4256'
+            phone: 'WhatsApp : +1 (514) 400-4279'
           }
         }
       },
@@ -426,7 +426,7 @@ const App = () => {
             title: 'Informations de Contact',
             content: 'Si vous avez des questions sur ces Conditions d\'Utilisation, veuillez nous contacter à :',
             email: 'E-mail : legal@netsyon.com',
-            phone: 'Téléphone : +1 (514) 400-4256'
+            phone: 'WhatsApp : +1 (514) 400-4279'
           }
         }
       }
